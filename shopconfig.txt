@@ -1,0 +1,229 @@
+paste this in to qb-shops/config.lua 
+
+    ["masker"] = {
+         {
+            name = "terror",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "hockeymask",
+            price = 500,
+            amount = 10,
+        },
+         {
+            name = "blackbandana",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "tshirtmask",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "scarecrowmask",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "scarf",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "monkeymask",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "skullmask",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "terrorwit",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "feest",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "noselong",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "blauw",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "skullzwart",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "silver",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "zwart1",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "zwart2",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "please",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "sok",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "zak",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "groen",
+            price = 500,
+            amount = 10,
+
+        },
+         {
+            name = "bandanab",
+            price = 500,
+            amount = 10,
+        },
+        {
+            name = "bivak1",
+            price = 500,
+            amount = 10,
+        },
+         {
+            name = "roodc",
+            price = 500,
+            amount = 10,
+        },
+         {
+            name = "clown",
+            price = 500,
+            amount = 10,
+        },
+         {
+            name = "gorilla",
+            price = 500,
+            amount = 10,
+        },
+         {
+            name = "paard",
+            price = 500,
+            amount = 10,
+        },
+         {
+            name = "paardu",
+            price = 500,
+            amount = 10,
+        },
+         {
+            name = "skullr",
+            price = 500,
+            amount = 10,
+        },
+         {
+            name = "masker3",
+            price = 500,
+            amount = 10,
+        },
+         {
+            name = "helm1",
+            price = 1000,
+            amount = 10,
+        },
+         {
+            name = "helm2",
+            price = 1000,
+            amount = 10,
+        },
+         {
+            name = "helm3",
+            price = 1000,
+            amount = 10,
+        },
+         {
+            name = "helm4",
+            price = 1000,
+            amount = 10,
+        },
+         {
+            name = "helm5",
+            price = 1000,
+            amount = 10,
+        },
+         {
+            name = "helm6",
+            price = 1000,
+            amount = 10,
+        },
+         {
+            name = "helm7",
+            price = 1000,
+            amount = 10,
+        },
+         {
+            name = "helm8",
+            price = 1000,
+            amount = 10,
+        },
+    },
+
+en this all the way below in qb-shops/config.lua
+
+-- OLD STORE 
+
+    ["masker"] = {
+        ["label"] = "Mask shop",
+        ["coords"] = {
+            [1] = vector4(-1334.89, -1277.6, 4.96, 105.15)
+        },
+        ["ped"] = {
+            ["model"] = 'S_M_M_StrVend_01'
+        },
+        ["radius"] = 4.5,
+        ["products"] = Config.Products["masker"],
+        ["showblip"] = true,
+        ["blipsprite"] = 84
+    },
+
+
+
